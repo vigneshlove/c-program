@@ -1,4 +1,5 @@
 #include <stdio.h>
+
 int main(void) 
 {
 	int array[20];
@@ -8,12 +9,16 @@ int main(void)
 	printf("\n enter the array elements:");
 	for(i=0;i<n;i++)
 	{
+		
 		scanf("%d",&array[i]);
+		
 	}
+	
 	for(i=0;i<n;i++)
 	{
 		if(array[i]>max)
 		{
+			
 			max=array[i];
 		}
 	}
