@@ -4,7 +4,7 @@ int main(void)
 {
 	char str[50],temp[10];
 	int i,j,n,k;
-	printf("enter the string:");
+	printf("Enter the string:");
 	scanf("%s",str);
 	n=strlen(str);
 	while(i<j)
