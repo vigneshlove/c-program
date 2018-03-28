@@ -28,7 +28,7 @@ if(flag==0)
 
 {
 
-printf("\n prime");
+printf("\n Prime");
 
 }
 
